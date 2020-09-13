@@ -85,7 +85,7 @@ def attendance():
 
 #====================================quit game===================
 def quit_function():
-    answer =showinfo(title="Good luck",message="Good Luck For Your Future..\n We'll contact you soon.")
+    answer =showinfo(title="Good luck",message="Good Luck For Your Future..")
     if answer=='ok':
         sys.exit(root.destroy())
 #================================= desable all buttons============
@@ -196,9 +196,7 @@ def answer():
         desableAllButton()#===========desable all button
 
 
-title='''quiz game made by team : -
-WICKY WINNER, KAHKASHAN MAHJABEEN ,
-GAURAV KUMAR JHA '''
+title='''programing Quiz'''
 appName = Label(root,text=title,font=('impact',20,'italic'),
                 justify=CENTER,bg='goldenrod2',fg='white')
 appName.pack(side=TOP,fill=BOTH)
@@ -235,7 +233,7 @@ submit.pack(side=BOTTOM)
 showtime = Label(root,text='',font=20,fg='black',bg='goldenrod2')
 showtime.place(x=620,y=50)
 #=========progress bar for time left for each question
-#copyri8= Label(root,text="Developed By: Pawan Sir",
+#copyri8= Label(root,text="Developed By: Wicky Winner",
               # font=('mistral',12,'bold'),fg='blue',bg='powder blue',width=25,justify=LEFT).place(x=0,y=480)
 
 if __name__ =="__main__":
